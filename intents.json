@@ -1,0 +1,33 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : ["hello","hey","hi","good day","greetings","whats up?","how is it going?"],
+            "responses" : ["Hello!","Hey!","What can i do for you?"]
+        },
+        {
+            "tag" : "goodbye",
+            "patterns" : ["cya","see you later","Goodbye","I am leaving","Have a Good day","bye","cao","see ya"],
+            "responses" : ["sad to see you go :(","Talk To you later","Goodbye!"]
+        },
+        {
+            "tag" : "age",
+            "patterns" : ["how old","how old are you","what is your age"],
+            "responses" : ["21 years!","My age is 21 Years!"]
+        },
+        {
+            "tag" : "name",
+            "patterns" : ["what is your name","what should i call you?","whats your name?","who are you?","can you tell me your name","name?"],
+            "responses" : ["You can call me Harsh!","I'm Harsh!","I'm Harsh"]
+        },
+        {
+            "tag" : "shop",
+            "patterns" : ["I'd like to buy something","what are your products","what do you recommend","what are you selling"],
+            "responses" : ["Harsh has many ai models that can be share within low prices and accurate within more than 75%"]
+        },
+        {
+            "tag" : "hours",
+            "patterns" : ["when are you guys open","what are your working hours","hours of opeartion"],
+            "responses" : ["24/7"]
+        }
+]}
